@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -61,7 +61,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover text*/
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -72,7 +72,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: fff;
+    color: #fff;
 
 }
 
@@ -118,28 +118,57 @@ h1, h2 {
     position: absolute;
 }
 
-/* club ethos*/
+/* club ethos */
 
 #club-ethos {
-    height: 600opx;
+    height: 600px;
    }
 
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 30%;
+    width: 33%;
     float: right;
-    background-color: silver;
-}
+    }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+
+.right-about-heading p { 
+    text-align: right;
 }
